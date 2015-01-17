@@ -1,14 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title>About This Gallery</title>
-        <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"/>
-        <link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
-        <link rel="stylesheet" type="text/css" media="all" href="css/text.css" />
-        <link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" media="all" href="css/lightbox.css" />
-    </head>
-    <h1>About This Site</h1>
+<h1>About This Site</h1>
                 <p>This is a really simple image gallery, intended as more than a "hello world" example'
                     to be implemented using different MVC frameworks, so they can be compared.</p>
                 <p>This site started out as the "Simple Gallery" from <a href="http://bryantsmith.com" target="_blank">Bryant Smith</a>.</p>

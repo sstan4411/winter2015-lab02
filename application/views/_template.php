@@ -2,11 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>{pagetitle}</title>
-        <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"/>
-        <link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
-        <link rel="stylesheet" type="text/css" media="all" href="css/text.css" />
-        <link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" media="all" href="css/lightbox.css" />
+        <link href="../../public/css/lightbox.css" rel="stylesheet" type="text/css"/>
+        <link href="../../public/css/reset.css" rel="stylesheet" type="text/css"/>
+        <link href="../../public/css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="../../public/css/text.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <div id="wrapper">
