@@ -36,7 +36,6 @@
  * @filesource
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
-
 /*
 | -------------------------------------------------------------------
 | AUTO-LOADER
@@ -65,7 +64,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | 7. Models
 |
 */
-
 /*
 | -------------------------------------------------------------------
 |  Auto-load Packages
@@ -75,10 +73,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |  $autoload['packages'] = array(APPPATH.'third_party', '/usr/local/shared');
 |
 */
-
 $autoload['packages'] = array();
-
-
 /*
 | -------------------------------------------------------------------
 |  Auto-load Libraries
@@ -95,10 +90,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-
-$autoload['libraries'] = array();
-
-
+$autoload['libraries'] = array('database', 'parser');
 /*
 | -------------------------------------------------------------------
 |  Auto-load Drivers
@@ -111,10 +103,7 @@ $autoload['libraries'] = array();
 |
 |	$autoload['drivers'] = array('session', 'cache');
 */
-
 $autoload['drivers'] = array();
-
-
 /*
 | -------------------------------------------------------------------
 |  Auto-load Helper Files
@@ -123,10 +112,8 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-
-$autoload['helper'] = array();
-
-
+//$autoload['helper'] = array();
+$autoload['helper'] = array('common', 'url');
 /*
 | -------------------------------------------------------------------
 |  Auto-load Config files
@@ -139,10 +126,7 @@ $autoload['helper'] = array();
 | config files.  Otherwise, leave it blank.
 |
 */
-
 $autoload['config'] = array();
-
-
 /*
 | -------------------------------------------------------------------
 |  Auto-load Language files
@@ -155,10 +139,7 @@ $autoload['config'] = array();
 | "codeigniter_lang.php" would be referenced as array('codeigniter');
 |
 */
-
 $autoload['language'] = array();
-
-
 /*
 | -------------------------------------------------------------------
 |  Auto-load Models
@@ -172,9 +153,6 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-
-$autoload['model'] = array();
-
-
+$autoload['model'] = array('images');
 /* End of file autoload.php */
 /* Location: ./application/config/autoload.php */
